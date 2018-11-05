@@ -9,24 +9,15 @@
 这里用了[libc-database](https://github.com/niklasb/libc-database)的数据库。
 
 ## 安装
-
-```shell
-//此方法中submodule失效
-git clone https://github.com/lieanu/libc.git
-cd libc
-git submodule update --init --recursive
-python setup.py develop
+(REPO里面已经集成了更新的db文件)
 ```
-暂时的做法
-(REPO里面已经集成了更新的db文件，无需第三步，直接安装即可)
-```
-git clone https://github.com/lieanu/libc.git
+git clone https://github.com/pcy190/LibcSearcher.git
 cd LibcSeacher
-
 python setup.py develop
 ```
+
 ## 更新
-(如果需要更新的话，先删除libc-database文件夹，然后执行第三步)
+(如果需要更新libc的话，先删除libc-database文件夹，然后执行第三步)
 ```
 cd LibcSeacher
 git clone https://github.com/lieanu/libc-database.git
