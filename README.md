@@ -11,9 +11,19 @@
 ## 安装
 
 ```shell
+//此方法中submodule失效
 git clone https://github.com/lieanu/libc.git
 cd libc
 git submodule update --init --recursive
+python setup.py develop
+```
+暂时的做法
+(如果需要更新的话，先删除libc-database文件夹，然后执行第三步)
+(REPO里面已经集成了更新的db文件，无需第三步，直接安装即可)
+```
+git clone https://github.com/lieanu/libc.git
+cd LibcSeacher
+git clone https://github.com/lieanu/libc-database.git
 python setup.py develop
 ```
 
