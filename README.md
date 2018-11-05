@@ -25,7 +25,7 @@ cd LibcSeacher
 
 python setup.py develop
 ```
-##更新
+## 更新
 (如果需要更新的话，先删除libc-database文件夹，然后执行第三步)
 ```
 cd LibcSeacher
