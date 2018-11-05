@@ -13,6 +13,7 @@
 ```
 git clone https://github.com/pcy190/LibcSearcher.git
 cd LibcSeacher
+git submodule update --init --recursive
 python setup.py develop
 ```
 
